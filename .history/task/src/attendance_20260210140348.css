@@ -1,0 +1,18 @@
+.app{
+    margin: auto;
+}
+input{
+    margin: 40px;
+}
+button{
+    margin: 40px;
+}
+form{
+    scale: 1.5;
+}
+table{
+    margin: auto;
+}
+th, tr {
+    gap: 100px;
+}

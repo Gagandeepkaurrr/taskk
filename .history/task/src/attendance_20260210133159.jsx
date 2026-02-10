@@ -1,0 +1,46 @@
+import React from "react";
+import "./attendance.css"
+
+function Attendance() {
+
+  const [records, setRecords] = useState([]); 
+  const [name, setName] = useState("");       
+  const [date, setDate] = useState("");  
+  const [status, setStatus] = useState("");
+
+  const handleSubmit = (e) => {
+    e.preventDefault;
+  }
+
+  return (
+    <div className="app">
+      <h1>Attendance Record</h1>
+      <hr />
+      <form>
+        <input type="text" placeholder="Name" required />
+        <input type="date" required/>
+        <select required>
+            <option value="">Select Attendance</option>
+            <option value="present">Present</option>
+            <option value="absent">Absent</option>
+        </select>
+        <button type="submit" >Submit</button>
+      </form>
+
+      <table>
+        <thead>
+            <th>Name</th>
+            <th>Date</th>
+            <th>Attendance</th>
+        </thead>
+        <tbody>
+            <tr></tr>
+            <tr></tr>
+            <tr></tr>
+        </tbody>
+      </table>
+      </div>
+  );
+}
+
+export default Attendance;

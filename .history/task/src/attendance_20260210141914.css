@@ -1,0 +1,22 @@
+input{
+    margin: 40px;
+}
+button{
+    margin: 40px;
+}
+form{
+    scale: 1.5;
+}
+table{
+    width: 60%;
+}
+th{
+    font-size: 40px;
+}
+td{
+    font-size: 20px;
+}
+button{
+    background: linear-gradient(45deg, #8c20e4, #263686);
+    color: black;
+}

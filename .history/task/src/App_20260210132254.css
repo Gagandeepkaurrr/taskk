@@ -1,0 +1,10 @@
+#root {
+  margin: 0 auto;
+  text-align: center;
+  max-width: 100%;
+}
+.app{
+  justify-content: center;
+  height: 100vh;
+  width: 99vw;
+}

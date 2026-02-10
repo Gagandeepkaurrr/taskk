@@ -1,0 +1,14 @@
+import React from "react";
+import logo from "./image.png"
+import "./enter.css"
+
+function Enter() {
+  
+  return (
+    <div className="enter">
+        <img src={logo} alt="enter" width={250} height={250} />
+    </div>
+  );
+}
+
+export default Enter;

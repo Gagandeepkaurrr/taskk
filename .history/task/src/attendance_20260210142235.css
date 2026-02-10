@@ -1,0 +1,28 @@
+input {
+    margin: 40px;
+}
+button {
+    margin: 40px;
+    background: linear-gradient(45deg, #8c20e4, #263686);
+    color: #fff;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+form {
+    scale: 1.5;
+}
+table {
+    width: 60%; 
+    margin: 20px auto;
+    border: 2px solid #fff; 
+}
+
+th, td {
+    font-size: 20px;
+    padding: 10px 15px;
+    border: 1px solid #ffffff;
+}
+
+th {
+    font-size: 40px;
+}

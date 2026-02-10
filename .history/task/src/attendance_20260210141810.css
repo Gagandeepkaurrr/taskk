@@ -1,0 +1,21 @@
+input{
+    margin: 40px;
+}
+button{
+    margin: 40px;
+}
+form{
+    scale: 1.5;
+}
+table{
+    width: 60%;
+}
+th{
+    font-size: 40px;
+}
+td{
+    font-size: 20px;
+}
+button{
+    background-color: #ffffff;
+}

@@ -1,0 +1,35 @@
+.a{
+  margin-right: 40px;
+}
+.b{
+  margin: 20px;
+}
+button {
+    margin: 40px 20px;
+    background: linear-gradient(45deg, #8c20e4, #263686);
+    color: #fff;
+    cursor: pointer;
+}
+form {
+    scale: 1.5;
+}
+table {
+    width: 60%; 
+    margin: 0px auto;
+    border: 2px solid #fff; 
+    border-collapse: collapse;
+}
+
+th, td {
+    font-size: 20px;
+    padding-left: 75px;
+    padding-right: 75px;
+    border: 1px solid #fff;
+}
+
+th {
+    font-size: 30px;
+}
+h1{
+    margin: 0px -10px;
+}

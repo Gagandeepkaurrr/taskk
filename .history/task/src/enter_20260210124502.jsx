@@ -1,0 +1,19 @@
+import logo from "./image.png"
+import "./enter.css"
+import React, { useState, useEffect } from "react";
+
+function Enter() {
+  useState[show, setShow] = useState(false);
+
+  useEffect(() => {
+    setTimeout(() => {
+      setShow(true);
+    }, 3000); }, []);
+  return (
+    <div className="enter">
+        <img src={logo} alt="enter" width={250} height={250} />
+    </div>
+  );
+}
+
+export default Enter;
