@@ -9,7 +9,7 @@ A simple **Attendance Management System** (AMS) built using HTML, CSS, and JavaS
 - **Filter Attendance**:
   - By date
   - By presence status (Present / Absent)
-- **Responsive Design** for desktop and mobile
+- **Responsive Design** for desktop 
 - **Easy to extend** for future features like export to CSV or reports
 
 ## Installation
