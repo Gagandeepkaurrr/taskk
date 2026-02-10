@@ -1,16 +1,20 @@
-# React + Vite
+# Attendance Management System
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple **Attendance Management System** (AMS) built using HTML, CSS, and JavaScript (or any framework of your choice). This system allows users to track attendance, mark present or absent, and filter data by date or status.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Splash Screen** with logo on launch
+- **Add Attendance**: Record the name of a person as present or absent for a specific date
+- **Filter Attendance**:
+  - By date
+  - By presence status (Present / Absent)
+- **Responsive Design** for desktop and mobile
+- **Easy to extend** for future features like export to CSV or reports
 
-## React Compiler
+## Installation
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+1. Clone the repository:
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```bash
+git clone https://github.com/Gagandeepkaurrr/taskk.git
